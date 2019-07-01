@@ -2,8 +2,23 @@ body {
   margin: 0;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
 
+button {
+  color: #00B7FF; }
+
 a {
   color: #00B7FF; }
+
+h1 {
+  font-size: 80px;
+  color: antiquewhite; }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  justify-content: end;
+  margin-right: -50vw;
+  margin-top: -30vh; }
 
 .backg {
   width: 100vw;
@@ -18,12 +33,38 @@ a {
 .backg button {
   text-align: center;
   width: 200px;
-  height: 100px;
-  border-radius: 15px;
+  height: 60px;
+  border-radius: 30px;
   font-size: 17px; }
 
 .backg button a {
   text-decoration: none;
   color: #1c6e87; }
+
+.movies {
+  display: flex;
+  flex-wrap: wrap; }
+
+.movie {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-bottom: 50px; }
+
+.stars {
+  font-weight: bold; }
+
+.selected-film {
+  display: flex;
+  flex-direction: row;
+  margin-right: 30px;
+  margin-left: 30px; }
+
+.info-film {
+  margin-right: 30px;
+  margin-left: 50px;
+  width: 700px; }
 
 /*# sourceMappingURL=style.css.map */
